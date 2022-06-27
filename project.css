@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+body{
+    min-height: 115vh;
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    font-family: sans-serif;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none; 
+    height: 80px;
+    background-color: black;
+    text-decoration-color: white;
+    text-decoration: none;
+    /*justify-content: space-around;*/
+}
+nav ul li{
+    flex: auto;
+}
+#a1{
+margin-left: 700px;
+text-decoration: none;
+color: azure;
+}
+#a2{
+    margin-left: 10px;
+    text-decoration: none;
+    color: azure;
+    }
+    #a3{
+        margin-left: 10px;
+        text-decoration: none;
+        color: azure;
+        }
+#a1:hover{
+    color:yellow;
+    border-bottom: .1rem solid yellow;
+    padding-bottom: 0.5rem;
+}
+#a2:hover{
+    color:yellow;
+    border-bottom: .1rem solid yellow;
+    padding-bottom: 0.5rem;
+}
+#a3:hover{
+    color:yellow;
+    border-bottom: .1rem solid yellow;
+    padding-bottom: 0.5rem;
+}
+@media all and (max-width : 400px){
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li{
+        text-align: center;
+    }
+}
+.brand img{
+    width: 90px;
+    padding: 0px;
+    cursor: pointer;
+    
+}
+.brand{
+    
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: white;
+}
+.brandtxt{
+    
+    display: flex;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.brand img:hover{
+    transition: 2s;
+    transform: rotate(360deg);
+}
+.bodyofweb{
+   
+    padding: 12px;
+    background: url("ngo_students.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Shippori Antique B1', sans-serif;
+    display: flex;
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 12px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.aboutus{
+    font-size: xx-large;
+    font-weight: 100;
+}
+ .hindi{
+align-items: center;
+}
+
+ footer{
+     display: flex;
+     margin-left: 1%;
+     margin-top: 5%;
+     justify-content: center;
+ }
+
+footer span a{
+    text-decoration: none;
+}
+
+button{
+    
+    right: 30px;
+    margin-top: 560px;
+    margin-right: 400px;  
+} 
+
+button a{
+    
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:200px;
+    height:70px;
+    border: 2px solid black;
+    background: yellowgreen;
+    box-shadow: 4px 7px darkolivegreen;
+    border-radius: 50px;
+}
+button a:hover{
+  color: antiquewhite;
+  background: greenyellow ;
+  box-shadow: 4px 7px darkgoldenrod;
+  color: black;
+  letter-spacing: 1px;
+}
+
+
+button a{
+    z-index: 1;
+}
+/* Team section */
+#aboutteam .dexters .img{
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 140px;
+    max-height: 190px;
+}
+.teamImage {
+    border: 0px solid transparent;
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin-left: 80px;
+    
+    
+}
+#aboutteam{
+    
+    background-color: black;
+    height: 100vh;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+a h2{
+    
+    text-align: center;
+    justify-content: center;
+}
+
+#black{
+    color: black;
+}
+#yellow{
+    color: yellow;
+}
+#head{
+    color: yellow;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar-track{
+    background: black;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: yellow;
+    border-radius: 5rem;
+}
+
+#heading{
+    padding-top: 55px;
+    cursor: pointer;
+    border-bottom: .1rem solid yellow;
+    padding-bottom: 1.5rem;
+    
+}
+
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 100px;
+    
+}
+
+.mb-1{
+    padding-left: 20px;
+}
+
+footer{
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+
+
+
+.navigation{
+    position: sticky;
+    top: 0px;
+}
+
+.aboutus span{
+    font-weight: bold;
+}
+
+.video{
+    height: 100vh;
+    width: 100%;
+   
+    
+}
+
+.video iframe{
+    width: 100%;
+    background-size: cover;
+    background-color: black;
+    margin-top: 10px;
+
+}
